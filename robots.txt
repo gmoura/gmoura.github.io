@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow:
 
-Sitemap: http://gmoura.github.io/sitemap.xml 
+Sitemap: http://gmoura.github.io/sitemap.xml

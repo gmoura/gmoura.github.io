@@ -9,7 +9,7 @@
   <meta name="author" content="Guilherme Moura Nascimento">
 
   
-  <meta name="description" content="Contadores automáticos é uma feature disponível desde da versão 2.1 do CSS. Sim esse post fala sobre CSS2. \../0.0\../ A técnica em consiste em &hellip;">
+  <meta name="description" content="Contadores automáticos é uma feature disponível desde da versão 2.1 do CSS. Sim esse post fala sobre CSS2. \../0.0\../ A técnica consiste em atribuir &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -87,7 +87,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2015/01/27/css-tips-lista-com-contadores-customizados/">CSS Tips: Contadores Automaticos</a></h1>
+      <h1 class="entry-title"><a href="/blog/2015/01/27/css-tips-lista-com-contadores-customizados/">CSS Tips: Contadores Automáticos</a></h1>
     
     
       <p class="meta">
@@ -106,11 +106,11 @@
 
   <div class="entry-content"><p>Contadores automáticos é uma feature disponível desde da versão 2.1 do CSS. Sim esse post fala sobre CSS2. <code>\../0.0\../</code></p>
 
-<p>A técnica em consiste em atribuir um contador ou uma string concatenada a propriedade <code>content</code> em um dos pseudo-elementos <code>:before</code> ou <code>:after</code>. O contador é incrementado de acordo com as ocorrências de um elemento.</p>
+<p>A técnica consiste em atribuir um contador ou uma string concatenada á propriedade <code>content</code> em um dos pseudo-elementos <code>:before</code> ou <code>:after</code>. O contador é incrementado de acordo com as ocorrências de um elemento.</p>
 
-<p>Isso é possivel graças a duas propriedades do CSS, o <a href="http://www.w3.org/TR/CSS2/generate.html#propdef-counter-reset">counter-reset</a> e <a href="http://www.w3.org/TR/CSS2/generate.html#propdef-counter-increment">counter-increment</a>.</p>
+<p>Isso é possível graças a duas propriedades do CSS, o <a href="http://www.w3.org/TR/CSS2/generate.html#propdef-counter-reset">counter-reset</a> e <a href="http://www.w3.org/TR/CSS2/generate.html#propdef-counter-increment">counter-increment</a>.</p>
 
-<figure class='code'><figcaption><span>Contadores automaticos </span></figcaption>
+<figure class='code'><figcaption><span>Contadores automáticos </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -122,13 +122,13 @@
 <span class='line-number'>9</span>
 <span class='line-number'>10</span>
 </pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nt">section</span> <span class="p">{</span>
-</span><span class='line'>  <span class="c">/*counter-reset cria um escopo, por padrão o valor é 0*/</span>
+</span><span class='line'>  <span class="c">/* counter-reset cria um escopo, por padrão o valor é 0 */</span>
 </span><span class='line'>  <span class="k">counter-reset</span><span class="o">:</span> <span class="n">capitulo</span>
 </span><span class='line'><span class="p">}</span>
 </span><span class='line'>
 </span><span class='line'><span class="nt">h1</span><span class="nd">:before</span><span class="p">{</span>
 </span><span class='line'>  <span class="k">content</span><span class="o">:</span> <span class="s2">&quot;Capítulo &quot;</span> <span class="n">counter</span><span class="p">(</span><span class="n">capitulo</span><span class="p">)</span> <span class="s2">&quot;. &quot;</span><span class="p">;</span>
-</span><span class='line'>  <span class="c">/*Incrementa +1 para cara ocorrência do elemento*/</span>
+</span><span class='line'>  <span class="c">/* Incrementa +1 para cada ocorrência do elemento */</span>
 </span><span class='line'>  <span class="k">counter-increment</span><span class="o">:</span> <span class="n">capitulo</span>
 </span><span class='line'><span class="p">}</span>
 </span></code></pre></td></tr></table></div></figure>
@@ -157,7 +157,7 @@
 
 <p>Essa técnica funciona para qualquer tipo de listagem ou sequência de tags, seja uma sequência de <code>&lt;p&gt;</code> ou até mesmo de <code>&lt;div&gt;</code>, pois as propriedades <code>counter-reset</code> e <code>counter-increment</code> são globais.</p>
 
-<p>A questão compatibilidade já está bem resolvida, por ser uma feature antiga está disponivel para a maioria dos browsers. <a href="http://caniuse.com/#feat=css-counters">Can I Use CSS Counters</a>.</p>
+<p>A questão compatibilidade já está bem resolvida, por ser uma feature antiga está disponível para a maioria dos browsers. <a href="http://caniuse.com/#feat=css-counters">Can I Use CSS Counters</a>.</p>
 </div>
   
   

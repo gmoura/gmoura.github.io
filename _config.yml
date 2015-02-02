@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://gmoura.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: ogmoura
+subtitle: Diário de bordo, data estrelar 3 do 4 do 3 do 2 do 1.
+author: Guilherme Moura Nascimento
 simple_search: https://www.google.com/search
 description:
 
@@ -64,13 +64,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: gmoura
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: ogmoura
 twitter_tweet_button: true
 
 # Google +1

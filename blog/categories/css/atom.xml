@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Css | ogmoura]]></title>
   <link href="http://gmoura.github.io/blog/categories/css/atom.xml" rel="self"/>
   <link href="http://gmoura.github.io/"/>
-  <updated>2015-02-02T21:24:12-02:00</updated>
+  <updated>2015-02-04T21:43:54-02:00</updated>
   <id>http://gmoura.github.io/</id>
   <author>
     <name><![CDATA[Guilherme Moura Nascimento]]></name>
@@ -22,7 +22,7 @@
 
 <p>A técnica consiste em atribuir um contador ou uma string concatenada á propriedade <code>content</code> em um dos pseudo-elementos <code>:before</code> ou <code>:after</code>. O contador é incrementado de acordo com as ocorrências de um elemento.</p>
 
-<p>Isso é possível graças a duas propriedades do CSS, o <a href="http://www.w3.org/TR/CSS2/generate.html#propdef-counter-reset">counter-reset</a> e <a href="http://www.w3.org/TR/CSS2/generate.html#propdef-counter-increment">counter-increment</a>.</p>
+<p>Isso é possível graças as propriedades <a href="http://www.w3.org/TR/CSS2/generate.html#propdef-counter-reset">counter-reset</a> e <a href="http://www.w3.org/TR/CSS2/generate.html#propdef-counter-increment">counter-increment</a>.</p>
 
 <p><figure class='code'><figcaption><span>Contadores automáticos </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>

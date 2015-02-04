@@ -10,7 +10,7 @@ Contadores automáticos é uma feature disponível desde da versão 2.1 do CSS. 
 
 A técnica consiste em atribuir um contador ou uma string concatenada á propriedade `content` em um dos pseudo-elementos `:before` ou `:after`. O contador é incrementado de acordo com as ocorrências de um elemento.
 
-Isso é possível graças a duas propriedades do CSS, o [counter-reset](http://www.w3.org/TR/CSS2/generate.html#propdef-counter-reset) e [counter-increment](http://www.w3.org/TR/CSS2/generate.html#propdef-counter-increment).
+Isso é possível graças as propriedades [counter-reset](http://www.w3.org/TR/CSS2/generate.html#propdef-counter-reset) e [counter-increment](http://www.w3.org/TR/CSS2/generate.html#propdef-counter-increment).
 
 {% codeblock Contadores automáticos lang:css %}
 section {

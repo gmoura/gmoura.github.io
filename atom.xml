@@ -4,7 +4,7 @@
   <title><![CDATA[ogmoura]]></title>
   <link href="http://gmoura.github.io/atom.xml" rel="self"/>
   <link href="http://gmoura.github.io/"/>
-  <updated>2015-02-05T00:03:11-02:00</updated>
+  <updated>2015-02-05T00:12:16-02:00</updated>
   <id>http://gmoura.github.io/</id>
   <author>
     <name><![CDATA[Guilherme Moura Nascimento]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[CSS Tips: Contadores Automáticos]]></title>
-    <link href="http://gmoura.github.io/blog/2015/01/27/css-tips-lista-com-contadores-customizados/"/>
-    <updated>2015-01-27T23:06:16-02:00</updated>
-    <id>http://gmoura.github.io/blog/2015/01/27/css-tips-lista-com-contadores-customizados</id>
+    <link href="http://gmoura.github.io/blog/2015/02/05/css-tips-contadores-automaticos/"/>
+    <updated>2015-02-05T23:06:16-02:00</updated>
+    <id>http://gmoura.github.io/blog/2015/02/05/css-tips-contadores-automaticos</id>
     <content type="html"><![CDATA[<p>Contadores automáticos é uma feature disponível desde da versão 2.1 do CSS.  Com ela é possível adicionar índices numéricos a qualquer tag.</p>
 
 <p>A técnica consiste em atribuir um contador ou uma string concatenada á propriedade <code>content</code> em um dos pseudo-elementos <code>:before</code> ou <code>:after</code>. O contador é incrementado de acordo com as ocorrências de um elemento.</p>

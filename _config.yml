@@ -7,7 +7,7 @@ title: ogmoura
 subtitle: Diário de bordo, data estrelar 3 do 4 do 3 do 2 do 1.
 author: Guilherme Moura Nascimento
 simple_search: https://www.google.com/search
-description:
+description: I'm Front-end developer for a long time and my favorite editor is the VIM
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -44,7 +44,7 @@ highlighter: pygments # default python pygments have been replaced by pygments.r
 paginate: 10          # Posts per page on the blog index
 paginate_path: "posts/:num"  # Directory base for pagination URLs eg. /posts/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
-excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
+excerpt_link: "Leia mais &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 excerpt_separator: "<!--more-->"
 
 titlecase: true       # Converts page and post titles to titlecase

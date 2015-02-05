@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CSS Tips:  Contadores automáticos"
-date: 2015-01-27 23:06:16 -0200
+date: 2015-02-05 23:06:16 -0200
 comments: true
 categories: [CSS]
 ---

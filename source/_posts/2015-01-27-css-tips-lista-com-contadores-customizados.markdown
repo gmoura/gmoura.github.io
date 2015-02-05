@@ -3,7 +3,7 @@ layout: post
 title: "CSS Tips:  Contadores automáticos"
 date: 2015-01-27 23:06:16 -0200
 comments: true
-categories: [CSS, CSS2, SASS]
+categories: [CSS]
 ---
 
 Contadores automáticos é uma feature disponível desde da versão 2.1 do CSS.  Com ela é possível adicionar índices numéricos a qualquer tag.

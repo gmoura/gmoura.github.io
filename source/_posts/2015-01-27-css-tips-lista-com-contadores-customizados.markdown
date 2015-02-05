@@ -6,9 +6,10 @@ comments: true
 categories: [CSS, CSS2, SASS]
 ---
 
-Contadores automáticos é uma feature disponível desde da versão 2.1 do CSS. Sim esse post fala sobre CSS2. `\../0.0\../`
+Contadores automáticos é uma feature disponível desde da versão 2.1 do CSS.  Com ela é possível adicionar índices numéricos a qualquer tag.
 
 A técnica consiste em atribuir um contador ou uma string concatenada á propriedade `content` em um dos pseudo-elementos `:before` ou `:after`. O contador é incrementado de acordo com as ocorrências de um elemento.
+<!--more-->
 
 Isso é possível graças as propriedades [counter-reset](http://www.w3.org/TR/CSS2/generate.html#propdef-counter-reset) e [counter-increment](http://www.w3.org/TR/CSS2/generate.html#propdef-counter-increment).
 

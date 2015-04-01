@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "CSS Tips:  Contadores automaticos"
 date: 2015-01-27 23:06:16 -0200

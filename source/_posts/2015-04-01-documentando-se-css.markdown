@@ -7,17 +7,17 @@ sharing: true
 categories: [css, style-guide, documentação] 
 ---
 
-## Por que documentar
+## Por que documentar ?
 
 Esse post se dedica a falar sobre documentação de CSS, mas antes de conhecermos as maneiras de fazer, iremos entender a importância da documentação, seja ela para CSS ou para qualquer outro tipo de linguagem.
 
-Documentação é aquele tipo de processo que todos os programadores conhecem, sabem que é importante mas poucos o fazem. O que não falta são desculpas para não documentar, como por exemplo: falta tempo, código deve ser auto explicativo, não sou bom com textos ou simplesmente não gosto. Fod$%$se o próximo programador.
+Documentação é aquele tipo de processo que todos os programadores conhecem, sabem que é importante mas poucos o fazem. O que não falta são desculpas para não documentar, como por exemplo: falta tempo, código deve ser auto explicativo, não sou bom com textos ou simplesmente não gosto.
 
-Encontrar uma boa documentação que  explique o passo-a-passo (for dummies), de como as coisas funcionam tornaria o processo de adaptação de novos integrantes dentro da Empresa ou Projeto muito menos doloroso e mais rápido.
+Encontrar uma boa documentação que  explique o passo-a-passo (for dummies), de como as coisas funcionam tornaria o processo de adaptação de novos integrantes dentro da empresa ou projeto muito menos doloroso e mais rápido.
 <!--more-->
 
 
-Porém essa é a realidade de poucas empresas ou projetos, na maioria das vezes quando se encontra uma documentação, ela está mal escrita e mal organizada. Um bom exemplo de como a documentação é importante, está nas linguagens que utilizamos, quanto melhor o nível da documentação, mais rápida será a curva de aprendizado. 
+Porém essa é uma realidade de poucas empresas ou projetos, na maioria das vezes quando se encontra uma documentação, ela está mal escrita e mal organizada. Um bom exemplo de como a documentação é importante, está nas linguagens que utilizamos, quanto melhor o nível da documentação, mais rápida será a curva de aprendizado. 
 
 > Imagine sua linguagem de programação favorita com uma documentação desorganizada, agora, imagine ela sem documentação. Provavelmente você não estaria programando nela e muito menos a escolheria como sua favorita.
 
@@ -36,28 +36,23 @@ Previne código duplicado e incentiva o reaproveitamento de código, pois antes 
 Definir padrões para seu projeto faz com que todos os envolvidos entendam a mesma língua, traz transparência. Coisas como nomenclatura, semântica e estrutura de projeto ajuda na hora de encontrar erros ou achar determinados componentes.
 
 
-Convencidos de que documentação é um processo importante, iremos aprender como documentar seu CSS.
+**Convencidos de que documentação é um processo importante, iremos aprender como documentar seu CSS.**
 
 
 ## Let’s Rock
 
-Alguns requisitos que devem ser levados em consideração no início e durante a sua documentação:
+Alguns alguns pontos devem ser levados em consideração no início e durante a sua documentação:
 
-* Ser de fácil acesso a todos os envolvidos no projeto
+* Ser de fácil acesso
 * Bem estruturada 
 * Padronizada
 * Guias de boas práticas
 * Exemplo de uso 
-* Conter referencias
+* Conter referências
 * Constante atualização
 * Bonita 
 
-Existem duas maneiras de documentar código CSS,  a maneira trivial de se fazer, são em comentários explicativos, o problema dos comentários explicativos são que eles atendem e quando atendem apenas os desenvolvedores, exemplos:
-
-… exemplos de comentários explicativos 
-É legal porém não resolve
-
-Então como podemos criar uma documentação de código CSS que atenda os requisitos acima, principalmente disponibilizá-la todos os envolvidos no projeto?
+Um fator imporntante que deve ser pensado sobre a documentação é que a mesma deve está disponivel para todos envolvidos no projeto Então como podemos criar uma documentação de código CSS que atenda os requisitos acima, principalmente disponibilizá-la todos os envolvidos no projeto?
 
 A solução é simples, criando um Style Guide.
 

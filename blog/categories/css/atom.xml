@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Css | ogmoura]]></title>
+  <link href="http://gmoura.github.io/blog/categories/css/atom.xml" rel="self"/>
+  <link href="http://gmoura.github.io/"/>
+  <updated>2015-02-05T00:23:19-02:00</updated>
+  <id>http://gmoura.github.io/</id>
+  <author>
+    <name><![CDATA[Guilherme Moura Nascimento]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[CSS Tips: Contadores Automáticos]]></title>
+    <link href="http://gmoura.github.io/blog/2015/02/05/css-tips-contadores-automaticos/"/>
+    <updated>2015-02-05T23:06:16-02:00</updated>
+    <id>http://gmoura.github.io/blog/2015/02/05/css-tips-contadores-automaticos</id>
+    <content type="html"><![CDATA[<p>Contadores automáticos é uma feature disponível desde da versão 2.1 do CSS.  Com ela é possível adicionar índices numéricos a qualquer tag.</p>
+
+<p>A técnica consiste em atribuir um contador ou uma string concatenada á propriedade <code>content</code> em um dos pseudo-elementos <code>:before</code> ou <code>:after</code>. O contador é incrementado de acordo com as ocorrências de um elemento.</p>
+
+<!--more-->
+
+
+<p>Isso é possível graças as propriedades <a href="http://www.w3.org/TR/CSS2/generate.html#propdef-counter-reset">counter-reset</a> e <a href="http://www.w3.org/TR/CSS2/generate.html#propdef-counter-increment">counter-increment</a>.</p>
+
+<p><figure class='code'><figcaption><span>Contadores automáticos </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nt">section</span> <span class="p">{</span>
+</span><span class='line'>  <span class="o">/&lt;</span><span class="n">em</span><span class="o">&gt;</span> <span class="k">counter-reset</span> <span class="n">cria</span> <span class="n">um</span> <span class="n">escopo</span><span class="o">,</span> <span class="n">por</span> <span class="n">padr</span><span class="err">ã</span><span class="n">o</span> <span class="n">o</span> <span class="n">valor</span> <span class="err">é</span> <span class="m">0</span> <span class="o">&lt;/</span><span class="n">em</span><span class="o">&gt;/</span>
+</span><span class='line'>  <span class="k">counter-reset</span><span class="o">:</span> <span class="n">capitulo</span>
+</span><span class='line'><span class="p">}</span><span class="o">&lt;/</span><span class="nt">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nt">p</span><span class="o">&gt;</span><span class="nt">h1</span><span class="nd">:before</span><span class="p">{</span>
+</span><span class='line'>  <span class="k">content</span><span class="o">:</span> <span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="n">Cap</span><span class="err">í</span><span class="n">tulo</span> <span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;</span> <span class="n">counter</span><span class="p">(</span><span class="n">capitulo</span><span class="p">)</span> <span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="o">.</span> <span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;;</span>
+</span><span class='line'>  <span class="o">/&lt;</span><span class="n">em</span><span class="o">&gt;</span> <span class="n">Incrementa</span> <span class="o">+</span><span class="m">1</span> <span class="n">para</span> <span class="n">cada</span> <span class="n">ocorr</span><span class="err">ê</span><span class="n">ncia</span> <span class="n">do</span> <span class="n">elemento</span> <span class="o">&lt;/</span><span class="n">em</span><span class="o">&gt;/</span>
+</span><span class='line'>  <span class="k">counter-increment</span><span class="o">:</span> <span class="n">capitulo</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<h3>Exemplo de numeração customizada em listas:</h3>
+
+<p><iframe style="width: 100%; height: 300px" frameborder="0" seamless="seamless" src="http://jsfiddle.net/1v5Lkcq0/embedded/result,css,html/light/"></iframe>
+<br/></p>
+
+<h3>Exemplo de numeração automática em parágrafos:</h3>
+
+<p><iframe style="width: 100%; height: 300px" frameborder="0" seamless="seamless" src="http://jsfiddle.net/qpsbmrzo/embedded/result,css,html/light/"></iframe>
+<br/></p>
+
+<h3>Exemplo de numeração automática com herança:</h3>
+
+<p><iframe style="width: 100%; height: 300px" frameborder="0" seamless="seamless" src="http://jsfiddle.net/a8dL3v2s/embedded/result,css,html/light/"></iframe>
+<br/></p>
+
+<p>Essa técnica funciona para qualquer tipo de listagem ou sequência de tags, seja uma sequência de <code>&lt;p&gt;</code> ou até mesmo de <code>&lt;div&gt;</code>, pois as propriedades <code>counter-reset</code> e <code>counter-increment</code> são globais.</p>
+
+<p>A questão compatibilidade já está bem resolvida, por ser uma feature antiga está disponível para a maioria dos browsers. <a href="http://caniuse.com/#feat=css-counters">Can I Use CSS Counters</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

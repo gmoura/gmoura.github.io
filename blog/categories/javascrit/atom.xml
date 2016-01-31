@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Javascrit | ogmoura]]></title>
+  <link href="http://gmoura.github.io/blog/categories/javascrit/atom.xml" rel="self"/>
+  <link href="http://gmoura.github.io/"/>
+  <updated>2016-01-31T01:24:22-02:00</updated>
+  <id>http://gmoura.github.io/</id>
+  <author>
+    <name><![CDATA[Guilherme Moura Nascimento]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Element Coordinates and Area - JavaScript Tips]]></title>
+    <link href="http://gmoura.github.io/blog/2016/01/31/element-coordinates-and-area/"/>
+    <updated>2016-01-31T01:06:22-02:00</updated>
+    <id>http://gmoura.github.io/blog/2016/01/31/element-coordinates-and-area</id>
+    <content type="html"><![CDATA[<p>Hellow everyone.</p>
+
+<p>Today I going to talk about one an interesting method of the  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element">Web API Element</a>, this method is called <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect">getBoundingClientRect</a>.</p>
+
+<!--more-->
+
+
+<p>This method help us when We want get DOM Element’s coordinates and rectangular area like top, bottom, left, right, width and height.</p>
+
+<p>See my example:</p>
+
+<p><img src="/post_images/javascript-tips1.png"></p>
+
+<p>The  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect">getBoundingClientRect</a> returns an live object containing  bottom, height, left, right, top, width relative of the viewport.</p>
+]]></content>
+  </entry>
+  
+</feed>
